@@ -1,30 +1,46 @@
 <template>
   <section class="home section">
-    <div class="container">
-      <div class="title">Design. Tech. Data.</div>
-      <div class="columns">
-        <div class="column is-3">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, optio corporis placeat beatae, quia facilis ipsam praesentium nostrum cumque neque, distinctio at? Vero eaque, consequuntur nihil velit pariatur adipisci eos.</p>
-          <ul>
-            <li>Twitter</li>
-            <li>Youtube</li>
-            <li>Github</li>
-          </ul>
+    <div class="title">Design. Tech. Data.</div>
+    <div class="columns">
+      <div class="column is-4">
+        <!-- <div class="subtitle">Hi there!</div> -->
+        <div class="content">
+          <p class="">Hi there, I'm Vignesh Shenoy, a product engineer working at the intersection of design, code and data. This is a selection of my work.</p>
         </div>
-        <div class="column">
-          <div class="title">Recent Projects</div>
-          <div>
-            projects go here
-          </div>
+        <div class="content">
+          <p>
+            <ul>
+              <li>Twitter</li>
+              <li>Github</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </p>
         </div>
+      </div>
+      <div class="column">
+        <!-- <div class="subtitle">Projects</div> -->
+        <gallery :projects="projects"></gallery>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-export default {
+import Gallery from '~/components/Gallery.vue'
+import projects from '~/static/projects'
+import socialLinks from '~/static/socialLinks'
 
+export default {
+  components: {
+    Gallery
+  },
+  data() {
+    return {
+      projects,
+      socialLinks
+    }
+  }
 }
 </script>
 
