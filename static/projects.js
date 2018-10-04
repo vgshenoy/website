@@ -22,12 +22,117 @@ import denImg3 from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../asset
 import denImg4 from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../assets/images/den/4.jpg'
 
 export default [
+  // {
+  //   id: 'indiahikes',
+  //   thumb: nostraThumb,
+  //   title: 'Indiahikes',
+  //   shortDesc:
+  //     'is Indias largest trekking community, specialised in trekking the Himalayas',
+  //   desc:
+  //     'Nostragamus is a platform to engage with upcoming sporting action through predictions. In 2016, <a href="https://sportscafe.in" target="_blank">Sportscafe</a> was exploring an interactive play for their sports coverage. Working closely with the team, I created the concept, wireframed early prototypes and lead product development towards launch in early 2017. The unique format of Nostragamus allows for a more inclusive, low-friction and educative style of play over the more well-known fantasy format.',
+  //   info: [
+  //     {
+  //       heading: 'Role',
+  //       content: 'Concept, UX, IA, Product Strategy, Full Stack Development'
+  //     },
+  //     {
+  //       heading: 'With',
+  //       content:
+  //         '<a href="https://sportscafe.in" target="_blank">Sportscafe</a>'
+  //     },
+  //     {
+  //       heading: 'Period',
+  //       content: 'Aug 2016 - Present'
+  //     },
+  //     {
+  //       heading: 'Links',
+  //       content: '<a href="http://nostragamus.in" target="_blank">Website</a>'
+  //     }
+  //   ],
+  //   slides: [
+  //     {
+  //       img: nostraImg1,
+  //       text:
+  //         'Nostragamus throws question cards that ask users to predict how a key aspect of an upcoming game will play out, which they can do with a simple swipe. Each card also packs in background knowledge and statistics that lend colour and context to the game. Once the game is over, users get points and see where they stand against friends or on public forums.'
+  //     }
+  //   ]
+  // },
+  {
+    id: 'shapeofthegame',
+    thumb: nostraThumb,
+    title: 'Shape Of the Game',
+    shortDesc:
+      'is a collection of interactive storytelling and visual exploration pieces with a focus on games and sports.',
+    desc:
+      'Nostragamus is a platform to engage with upcoming sporting action through predictions. In 2016, <a href="https://sportscafe.in" target="_blank">Sportscafe</a> was exploring an interactive play for their sports coverage. Working closely with the team, I created the concept, wireframed early prototypes and lead product development towards launch in early 2017. The unique format of Nostragamus allows for a more inclusive, low-friction and educative style of play over the more well-known fantasy format.',
+    info: [
+      {
+        heading: 'Role',
+        content: 'Concept, UX, IA, Product Strategy, Full Stack Development'
+      },
+      {
+        heading: 'With',
+        content:
+          '<a href="https://sportscafe.in" target="_blank">Sportscafe</a>'
+      },
+      {
+        heading: 'Period',
+        content: 'Aug 2016 - Present'
+      },
+      {
+        heading: 'Links',
+        content: '<a href="http://nostragamus.in" target="_blank">Website</a>'
+      }
+    ],
+    slides: [
+      {
+        img: nostraImg1,
+        text:
+          'Nostragamus throws question cards that ask users to predict how a key aspect of an upcoming game will play out, which they can do with a simple swipe. Each card also packs in background knowledge and statistics that lend colour and context to the game. Once the game is over, users get points and see where they stand against friends or on public forums.'
+      }
+    ]
+  },
+  {
+    id: 'indiahikes',
+    thumb: nostraThumb,
+    title: 'Indiahikes',
+    shortDesc:
+      'is Indias largest trekking community, specialised in trekking the Himalayas.',
+    desc:
+      'Nostragamus is a platform to engage with upcoming sporting action through predictions. In 2016, <a href="https://sportscafe.in" target="_blank">Sportscafe</a> was exploring an interactive play for their sports coverage. Working closely with the team, I created the concept, wireframed early prototypes and lead product development towards launch in early 2017. The unique format of Nostragamus allows for a more inclusive, low-friction and educative style of play over the more well-known fantasy format.',
+    info: [
+      {
+        heading: 'Role',
+        content: 'Concept, UX, IA, Product Strategy, Full Stack Development'
+      },
+      {
+        heading: 'With',
+        content:
+          '<a href="https://sportscafe.in" target="_blank">Sportscafe</a>'
+      },
+      {
+        heading: 'Period',
+        content: 'Aug 2016 - Present'
+      },
+      {
+        heading: 'Links',
+        content: '<a href="http://nostragamus.in" target="_blank">Website</a>'
+      }
+    ],
+    slides: [
+      {
+        img: nostraImg1,
+        text:
+          'Nostragamus throws question cards that ask users to predict how a key aspect of an upcoming game will play out, which they can do with a simple swipe. Each card also packs in background knowledge and statistics that lend colour and context to the game. Once the game is over, users get points and see where they stand against friends or on public forums.'
+      }
+    ]
+  },
   {
     id: 'nostragamus',
     thumb: nostraThumb,
     title: 'Nostragamus',
     shortDesc:
-      'is a platform for sports fans and followers to engage and interact with live sporting action',
+      'is a platform for sports fans and followers to engage and interact with live sporting action.',
     desc:
       'Nostragamus is a platform to engage with upcoming sporting action through predictions. In 2016, <a href="https://sportscafe.in" target="_blank">Sportscafe</a> was exploring an interactive play for their sports coverage. Working closely with the team, I created the concept, wireframed early prototypes and lead product development towards launch in early 2017. The unique format of Nostragamus allows for a more inclusive, low-friction and educative style of play over the more well-known fantasy format.',
     info: [
@@ -84,7 +189,7 @@ export default [
     thumb: yokyThumb,
     title: 'Yoky Tag',
     shortDesc:
-      'is an IoT product that helps you keep track of your belongings',
+      'is an IoT product that helps you keep track of your belongings.',
     desc:
       'Yoky Tag is a Bluetooth Low Energy (BLE) powered device that helps you keep track of the belongings you tag them onto. It works in tandem with a companion app available on both Android and iOS smartphones. With BLE maturing as a technology and several pressing use-cases of such a device, we took this idea from concept to prototype and finally into production in 2016. The production was driven by an in-house assembly line that allowed for unique personalisation as part of the online purchase experience, where customers could pick colours and upload a sticker image of choice for their Tags.',
     info: [
@@ -136,7 +241,7 @@ export default [
     id: 'den',
     thumb: denThumb,
     title: 'Network Rollout Manager',
-    shortDesc: 'is a web app for DEN to track and monitor the rollout of network elements across India',
+    shortDesc: 'is a web app for DEN to track and monitor the rollout of network elements across India.',
     desc: 'DEN Networks is the largest cable TV distribution provider in India. In 2014, they doubled down on the broadband arm of their business which entailed rapid geographic expansion of their physical network. At Gida, we worked with the internal team to build and deploy a system that efficiently tracked and monitored rollouts with network tree diagrams, Gantt charts and task management modules all while providing third party vendor access.',
     info: [
       {
@@ -176,7 +281,7 @@ export default [
     id: 'airtel-chromecast',
     thumb: airtelThumb,
     title: 'Airtel/Chromecast Experience',
-    shortDesc: 'is an immersive web app to simulate the casting experience in the browser',
+    shortDesc: 'is an immersive web app to simulate the casting experience in the browser.',
     desc: `In 2014, Google partnered with Airtel to bring the Chromecast to the Indian market. Gida worked on building an online experience for the launch. Leveraging websocket protocols, we built an immersive web experience that allowed visitors to control video playback on desktop browsers from their smartphones, thereby simulating the 'magic' and convenience of the casting experience.`,
     info: [
       {

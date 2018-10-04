@@ -27,6 +27,7 @@ export default {
 }
 img {
   width: 100%;
+  // border: 1px solid #EEE;
 }
 
 img.real {

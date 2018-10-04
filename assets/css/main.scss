@@ -1,0 +1,29 @@
+
+@import "../../node_modules/bulma/bulma.sass";
+
+body {
+  // font-family: 'Noto Serif JP', sans-serif;
+  font-family: 'K2D', sans-serif;
+  font-size: 18px;
+  padding: 5vh;
+}
+
+a {
+  color: tomato;
+  &:hover {
+    color: orange;
+  }
+}
+
+.project-enter-active, .home-enter-active {
+  transition: all 2000ms cubic-bezier(.19,1,.22,1) 240ms;
+  backface-visibility: hidden;
+}
+.project-enter, .project-leave-active {
+  opacity: 0;
+  transform: translateY(-30px)
+}
+.home-enter, .home-leave-active {
+  opacity: 0;
+  transform: translateY(30px)
+}

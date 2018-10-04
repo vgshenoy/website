@@ -15,19 +15,22 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Hind+Guntur'}
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Barlow|Gudea|K2D|Noto+Serif+JP'},
+      { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' }
     ]
   },
 
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  // loading: { color: '#fff' },
+  loading: false,
 
   /*
   ** Global CSS
   */
   css: [
+    '@/assets/css/main.scss'
   ],
 
   /*
@@ -39,27 +42,15 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [,
-    // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma'
+  modules: [
+    ['@nuxtjs/google-analytics', { ua: 'UA-78239545-3' }]
   ],
-
-  /*
-  ** Build configuration
-  */
-  build: {
-    postcss: {
-      preset: {
-        features: {
-          customProperties: false
-        }
-      }
-    },
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-      
-    }
+  generate: {
+    routes: [
+      '/projects/nostragamus',
+      '/projects/yoky',
+      '/projects/airtel-chromecast',
+      '/projects/den'
+    ]
   }
 }

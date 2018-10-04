@@ -1,16 +1,31 @@
 <template>
+  <!-- <ul class="columns is-multiline">
+    <li class="project column is-half" v-for="(p, i) in projects" :key="p.id">
+      <a @click="goToProject(p.id)">
+        <div>
+          <img-wrapper :src="p.thumb"></img-wrapper>
+        </div>
+        <div class="content">
+          <strong>
+            {{p.title}}
+          </strong>
+          <span class="short-desc">{{p.shortDesc}} </span>
+        </div>
+      </a>
+    </li>
+  </ul> -->
   <ul>
     <li class="project" v-for="(p, i) in projects" :key="p.id">
       <a @click="goToProject(p.id)">
         <div class="columns">
-          <div class="column is-half">
-            <img-wrapper :src="p.thumb"></img-wrapper>
-          </div>
-          <div class="column is-half content">
+          <div class="column is-6 content">
             <strong>
               {{p.title}}
             </strong>
             <span class="short-desc">{{p.shortDesc}} </span>
+          </div>
+          <div class="column">
+            <img-wrapper :src="p.thumb"></img-wrapper>
           </div>
         </div>
       </a>
@@ -42,7 +57,7 @@ export default {
 
 <style lang="scss" scoped>
 .project {
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
   .columns {
     align-items: center;
   }
