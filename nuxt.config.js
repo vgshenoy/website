@@ -47,6 +47,8 @@ module.exports = {
   ],
   generate: {
     routes: [
+      '/projects/shapeofthegame',
+      '/projects/indiahikes',
       '/projects/nostragamus',
       '/projects/yoky',
       '/projects/airtel-chromecast',
