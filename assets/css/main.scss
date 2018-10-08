@@ -1,5 +1,8 @@
 
-@import "../../node_modules/bulma/bulma.sass";
+$link: tomato;
+
+@import '~bulma/bulma';
+
 
 body {
   // font-family: 'Noto Serif JP', sans-serif;
@@ -9,7 +12,7 @@ body {
 }
 
 a {
-  color: tomato;
+  // color: tomato;
   &:hover {
     color: orange;
   }
