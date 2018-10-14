@@ -15,7 +15,7 @@
       <div class="title">About</div>
       <div class="content">
         <p> 
-          I'm an engineer and designer based in Bangalore, India. I currently do freelance work on product development spanning product management, engineering and design. If you have an interesting idea or project on your hands, let's <a href="mailto: vignesh.shenoy@gmail.com">chat</a>.
+          I'm an engineer and designer based in Bangalore, India. I currently do freelance work on product development spanning engineering, design and product management. If you have an interesting idea or project on your hands, let's <a href="mailto: vignesh.shenoy@gmail.com">chat</a>.
         </p>
         <p>
           Prior to building things such as those listed above, I was a consultant at <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a>, where I helped blue chip companies with their business, strategy and operations across India and Asia. Earlier, I studied engineering at
