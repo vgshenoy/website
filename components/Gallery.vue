@@ -18,11 +18,16 @@
     <li class="project" v-for="(p, i) in projects" :key="p.id">
       <a @click="goToProject(p.id)">
         <div class="columns">
-          <div class="column is-6 content">
-            <strong>
-              {{p.title}}
-            </strong>
-            <span class="short-desc">{{p.shortDesc}} </span>
+          <div class="column is-7 content">
+            <div class="content">
+              <p>
+                <strong>{{p.title}}</strong>
+                <span class="short-desc" v-html="p.shortDesc"></span>
+              </p>
+            </div>
+            <div class="tags">
+              <span class="tag" v-for="role in p.roles">{{role}}</span>
+            </div>
           </div>
           <div class="column">
             <img-wrapper :src="p.thumb"></img-wrapper>
@@ -60,6 +65,7 @@ export default {
   // margin-bottom: 30px;
   .columns {
     align-items: center;
+    transition: all 300ms;
   }
   .short-desc {
     color: #4a4a4a;

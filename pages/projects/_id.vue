@@ -10,10 +10,14 @@
       <div>Back to Home</div>
     </a>
   
-    <div class="project">
+    <div class="section project">
       <div class="title">{{project.title}}</div>
   
       <div class="content" v-html="project.desc"></div>
+
+      <div class="tags">
+        <span class="tag" v-for="role in roles">{{role}}</span>
+      </div>
   
       <div class="columns projects">
         <div class="column item" v-for="item in project.info" :key="item.projectId">
@@ -26,7 +30,14 @@
 
       <div class="slides">
         <div class="slide columns" v-for="(slide, i) in project.slides" :key="i">
-          <figure class="image column is-8">
+          <figure class="image column is-9">
+            <template v-if="slide.video">
+              <div class="slide-video-wrapper">
+                <video class="slide-video" :src="slide.video" width="100%" height="100%" autoplay loop>
+                  Sorry your browsers doesn't support embedded videos
+                </video>
+              </div>
+            </template>
             <template v-if="slide.iframe">
               <div class="frame-spacer"></div>
               <div class="frame-container" v-html="slide.iframe"></div>
@@ -36,7 +47,9 @@
             </template>
           </figure>
           <div class="column">
-            <div v-if="slide.text">{{slide.text}}</div>
+            <div class="slide-text">
+              <div class="content" v-if="slide.text" v-html="slide.text"></div>
+            </div>
           </div>
 
         </div>
@@ -72,7 +85,7 @@
 </template>
 
 <script>
-import projects from '~/static/projects'
+import projects from '~/assets/projects'
 import ImgWrapper from '~/components/ImgWrapper'
 
 export default {
@@ -159,6 +172,13 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
+    padding: 0.75rem;
+  }
+  .slide-text {
+    font-size: 80%;
+  }
+  .slide-video-wrapper {
+    border: 1px solid #EEE;
   }
 }
 

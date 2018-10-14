@@ -2,7 +2,7 @@
   <div>
     <section class="section intro">
       <p>
-        Hi there, I'm <a href="#about"><strong>Vignesh Shenoy</strong></a>. I work at the intersection of design, code and data to build compelling products and experiences. Here are a few projects I've worked on over the past few years.
+        Hi, I'm <a href="#about"><strong>Vignesh Shenoy</strong></a>. I work at the intersection of design, code and data to build compelling products and experiences. These are projects I've worked on over the past few years.
       </p>
     </section>
     
@@ -15,14 +15,14 @@
       <div class="title">About</div>
       <div class="content">
         <p> 
-          I'm an engineer and designer based in Bangalore, India. I currently do freelance work on product development. If you have an interesting idea or project on your hands, would love to <a href="mailto: vignesh.shenoy@gmail.com">chat</a>.
+          I'm an engineer and designer based in Bangalore, India. I currently do freelance work on product development spanning product management, engineering and design. If you have an interesting idea or project on your hands, let's <a href="mailto: vignesh.shenoy@gmail.com">chat</a>.
         </p>
         <p>
-          In the past, I grokked design, engineering and business at
-          <a target="_blank" href="https://yoky.io">Yoky</a>,
-          <a target="_blank" href="https://gida.in">Gida</a> and
-          <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a>. Earlier, I studied engineering at
+          Prior to building things such as those listed above, I was a consultant at <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a>, where I helped blue chip companies with their business, strategy and operations across India and Asia. Earlier, I studied engineering at
           <a target="_blank" href="https://www.iitm.ac.in/">IIT Madras</a>.
+        </p>
+        <p>
+          
         </p>
       </div>
       <ul class="links columns is-multiline">
@@ -45,8 +45,8 @@
 <script>
 
 import Gallery from '~/components/Gallery.vue'
-import projects from '~/static/projects'
-import socialLinks from '~/static/socialLinks'
+import projects from '~/assets/projects'
+import socialLinks from '~/assets/socialLinks'
 
 export default {
   transition: 'home',

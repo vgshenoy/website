@@ -14,7 +14,7 @@
 }
 
 .screen {
-	background-color:tomato;
+	background-color: tomato;
 	position: fixed;
 	top: 0;
 	left: 0;
