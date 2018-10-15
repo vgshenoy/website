@@ -40,7 +40,7 @@ export default [
     title: 'Nostragamus',
     shortDesc:
       "is a daily fantasy sports app that makes engaging with live sporting action more accessible and convenient than ever before",
-    roles:['prototyping', 'full stack engineering', 'product management', 'data viz', 'data science'],
+    roles:[ 'product management', 'prototyping', 'full stack engineering', 'data viz', 'data science'],
     desc:
       `<p><a href="http://nostragamus.in" target="_blank">Nostragamus</a> is a daily fantasy sports app with a twist - instead of picking a full team within constraints of a budget, users have to answer a series of questions about player or team performances. Each question comes with context and statistics, which put together, serve as a compact preview of upcoming matches. Since launch, Nostragamus has grown to over a million registered users at over 50K daily active users of traffic.</p>
       <p>I created this concept for <a href="http://sportscafe.in/" target="_blank">Sportscafe</a> in 2016, when they were exploring an interactive angle to their sports coverage. Offerings in the fantasy sports space at the time were heavily geared towards ‘Pro’ users, who had the time and motivation to stay on top of sports news and carefully build a team keeping in-game budget constraints in mind. I wanted to create something that could bring more casual sports followers into the fold.</p>
@@ -176,7 +176,7 @@ export default [
     title: 'Yoky Tag',
     shortDesc:
       'is an IoT product that helps you keep track of your belongings.',
-    roles:['full stack engineering', 'supply chain management', 'industrial design', 'prototyping'],
+    roles:['product management', 'full stack engineering', 'supply chain management', 'industrial design', 'prototyping'],
     desc:
       `
       <p><a href="http://yoky.io/tag" target="_blank">Yoky Tag</a> is a Bluetooth Low Energy (BLE) powered device that helps you keep track of the belongings you tag them onto. It works in tandem with a companion app available on both Android and iOS smartphones. It was launched in 2016 and was featured in <a href="https://www.livemint.com/Leisure/oO9albNSGCcT3RZxBCxgSO/Yoky-Tag-review-For-finding-misplaced-keys-and-more.html" target="_blank">Mint</a>, <a href="https://www.business-standard.com/article/technology/yoky-because-it-s-human-to-forget-116073100790_1.html" target="_blank">Business Standard</a>, <a href="https://www.deccanchronicle.com/technology/gadgets/290716/in-a-new-yoky-state-of-find.html" target="_blank">Deccan Chronicle</a>, <a href="https://www.mid-day.com/articles/tech-new-wireless-tracker-will-ensure-youll-never-lose-your-belongings/17529176" target="_blank">Mid-Day</a> among others.</p>
