@@ -22,8 +22,7 @@
           <a target="_blank" href="https://www.iitm.ac.in/">IIT Madras</a>.
         </p>
         <p>
-          When Iclear
-          'm not working on professional projects, I enjoy adventure travel (documented on <a href="http://youtube.com/user/etothepipplus1/videos">Youtube</a> and <a href="http://instagram.com/vigneshenoy">Instagram</a>) and playing competitive sports (ultimate frisbee and football are my jam).
+          When I'm not working on professional projects, I enjoy adventure travel (as documented on <a href="http://youtube.com/user/etothepipplus1/videos">Youtube</a> and <a href="http://instagram.com/vigneshenoy">Instagram</a>) and playing competitive sports (ultimate frisbee and football are my jam).
         </p>
       </div>
       <ul class="links columns is-multiline">
