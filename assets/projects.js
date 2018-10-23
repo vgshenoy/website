@@ -39,12 +39,12 @@ export default [
     thumb: nostraThumb,
     title: 'Nostragamus',
     shortDesc:
-      "is a daily fantasy sports app that makes engaging with live sporting action more accessible and convenient than ever before",
-    roles:[ 'product management', 'prototyping', 'full stack engineering', 'data viz', 'data science'],
+      "is a daily fantasy sports app that makes engaging with live sporting action more convenient and accessible than ever before",
+    roles:[ 'product management', 'full stack engineering', 'prototyping', 'data viz', 'data science'],
     desc:
-      `<p><a href="http://nostragamus.in" target="_blank">Nostragamus</a> is a daily fantasy sports app with a twist - instead of picking a full team within constraints of a budget, users have to answer a series of questions about player or team performances. Each question comes with context and statistics, which put together, serve as a compact preview of upcoming matches. Since launch, Nostragamus has grown to over a million registered users at over 50K daily active users of traffic.</p>
-      <p>I created this concept for <a href="http://sportscafe.in/" target="_blank">Sportscafe</a> in 2016, when they were exploring an interactive angle to their sports coverage. Offerings in the fantasy sports space at the time were heavily geared towards ‘Pro’ users, who had the time and motivation to stay on top of sports news and carefully build a team keeping in-game budget constraints in mind. I wanted to create something that could bring more casual sports followers into the fold.</p>
-      <p>I wireframed early prototypes on paper and <a href="http://www.sketchapp.com/" target="_blank">Sketch</a>, and then lead product development towards launch in early 2017, working closely with the design, engineering and content teams at Sportscafe. A critical piece in the system that I architected was an admin portal + database that allowed the content team to create questions and push out content on a daily basis to the app. To build this out I used <a href="http://vuejs.org" target="_blank">Vue.js</a> + <a href="http://nodejs.org" target="_blank">Node.js</a> + <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a>.</p>
+      `<p><a href="http://nostragamus.in" target="_blank">Nostragamus</a> is a daily fantasy sports app with a twist - instead of picking a full team within constraints of a budget, users have to answer a series of questions about player or team performances. Each question comes with context and statistics, which put together, serve as a compact preview of upcoming matches. Since launch, Nostragamus has grown to over a million registered users at over 50K daily active users in traffic.</p>
+      <p>I created this concept for <a href="http://sportscafe.in/" target="_blank">Sportscafe</a> in 2016, when they were exploring an interactive angle to their sports coverage. Offerings in the fantasy sports space at the time were heavily geared towards 'Pro' users, who had the time and motivation to stay on top of sports news and carefully build a team keeping in-game budget constraints in mind. I wanted to create something that could bring more casual sports followers into the fold.</p>
+      <p>I wireframed early prototypes on paper and <a href="http://www.sketchapp.com/" target="_blank">Sketch</a>, and then lead product development into launch in early 2017, working closely with the design, engineering and content teams at Sportscafe. A critical piece in the system that I architected is an admin portal + database that allows the content team to create questions and push out content on a daily basis to the app. To build this out I leaned on <a href="http://vuejs.org" target="_blank">Vue.js</a> + <a href="http://nodejs.org" target="_blank">Node.js</a> + <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a>.</p>
       <p>More recently, I have been working on building tools to understand user behaviour, gameplay and spend patterns, so that it may be translated into better contest structures, features and marketing efforts.</p>`
       ,
     info: [
@@ -66,7 +66,7 @@ export default [
       {
         img: nostraImg1,
         text:
-          'Answer questions about player/team performance and get points if your predictions turn out correct. See where you stand on a leaderboard of other players or just your friends.'
+          'The core of the game is answering questions about player/team performance to get points if your predictions turn out correct. You can then see your position on a leaderboard of other players or friends and win prizes if you join a paid contest.'
       },
       {
         img: nostraImg2,
@@ -75,7 +75,7 @@ export default [
       {
         img: nostraImg3,
         text:
-          'Initial iterations done on paper, while getting feedback from the internal team and potential users.'
+          'Initial iterations were done on paper, while getting feedback from the internal team and potential users.'
       },
       {
         img: nostraImg4,
@@ -88,7 +88,7 @@ export default [
       {
         img: nostraImg6,
         text:
-          'One of many tools I built to understand gameplay, spend and deposit patterns.'
+          'One of the tools I built to investigate gameplay, spend and deposit patterns.'
       }
     ]
   },
@@ -97,11 +97,11 @@ export default [
     thumb: sotgThumb,
     title: 'Shape of the Game',
     shortDesc:
-      'is a collection of data-driven, visual, interactive explorations with a focus on sports and the outdoors',
+      'is a collection of data-driven, visual, interactive explorations with a focus on sports',
     roles:['prototyping', 'data viz', 'data science'],
     desc:
-      `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a personal project that was born from a desire to better ‘see’ the ebb and flow of cricket and football matches through data visualisation.</p>
-      <p>The first step along the way was getting hold of data, and while there are some good data resoruces out there, I often had to write scrapers with <a href="http://nodejs.org" target="_blank">Node.js</a> and <a href="http://python.org" target="_blank">Python</a> to get what I needed. To prototype and play with the data I wanted to use a mix of <a href="http://vuejs.org" target="_blank">Vue.js</a> and <a href="http://d3js.org" target="_blank">D3.js</a>. However, they don’t play well with each other out of the box, and finetuning my workflow and writing helper components took some time and effort.</p>`,
+      `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a personal project that was born from a desire to better 'see' the ebb and flow of cricket and football matches through data visualisation.</p>
+      <p>The first step along the way was getting hold of data, and while there are some good data resoruces out there, I often had to write scrapers with <a href="http://nodejs.org" target="_blank">Node.js</a> and <a href="http://python.org" target="_blank">Python</a> to get what I needed. To prototype and play with the data I wanted to use a mix of <a href="http://vuejs.org" target="_blank">Vue.js</a> and <a href="http://d3js.org" target="_blank">D3.js</a>. However, they don’t play well with each other out of the box, and I had to spend time and effort to finetune my workflow by writing helper components.</p>`,
     info: [
       {
         heading: 'Links',
@@ -130,13 +130,13 @@ export default [
     thumb: ihThumb,
     title: 'Indiahikes',
     shortDesc:
-      "online experience is prototyping and design work for India's largest trekking community",
+      "is India's largest trekking community where I prototyped and designed key parts of their online experience",
     roles: ['prototyping'],
     desc:
       `
-      <p><a href="http://indiahikes.com" target="_blank">Indiahikes</a> is India’s largest trekking community - they run over 20 treks in different ranges of the Himalayas, run conservation efforts and undertake outdoor education programmes as well. I have been working with them since 2017 to redesign parts of their website.</p>
-      <p>I first came on board in 2017, where I redesigned the online flow where a user browses treks and picks one to go on. To design the new flow, we laid out all the factors that trekkers might consider while making a choice including time of the year, region, snow cover, flora and fauna. We then segmented and profiled visitors according to their trekking experience , Eg. a large number of trekkers are first-timers, experience trekkers are interested only in moderate-difficult treks. Keeping the size and needs of these segments in mind, the the final design was a balance between recommendation, exploration and availability.</p>
-      <p>I took an experimental approach in this project of rapid prototyping in <a href="http://vuejs.org" target="_blank">Vue.js</a>. Leveraging <a href="http://bulma.io" target="_blank">Bulma</a> for styling and several open source Vue components for functionality allowed me to iterate at speed and I deployed updates using Zeit’s Now to <a href="http://ih-treks.now.sh" target="_blank">ih-treks.now.sh</a>. This allowed the team at Indiahikes to see and play around with responsive, interactive versions of my design (albeit with dummy content), rather than static mobile, tablet and desktop versions.</p>
+      <p><a href="http://indiahikes.com" target="_blank">Indiahikes</a> is India’s largest trekking community - they run over 20 treks in various ranges of the Himalayas, drive conservation efforts and undertake outdoor education programmes as well.</p>
+      <p>I first came on board in 2017, when I redesigned the online flow of a user browsing treks and picking one to book themselves on. To design the new flow, we laid out all the factors that trekkers might consider while making a choice including time of the year, region, snow cover, flora and fauna. We then segmented and profiled visitors according to their trekking experience. For instance, a large number of trekkers are first-timers while experienced trekkers are interested only in moderate to difficult treks. Keeping the size and needs of these segments in mind, the the final design had to be a balance between recommendation, exploration and availability.</p>
+      <p>I took an experimental approach in this project of rapid prototyping in <a href="http://vuejs.org" target="_blank">Vue.js</a>. Leveraging <a href="http://bulma.io" target="_blank">Bulma</a> for styling and several open source Vue components for functionality allowed me to iterate at speed and I deployed updates using Zeit’s <a href="https://zeit.co/now" target="_blank">Now</a> to <a href="http://ih-treks.now.sh" target="_blank">ih-treks.now.sh</a>. This allowed the team at Indiahikes to see and play around with responsive, interactive versions of my design, rather than static mobile, tablet and desktop versions.</p>
       `,
     info: [
       {
@@ -156,17 +156,17 @@ export default [
       {
         img: ihImg1,
         text:
-          `Trekkers who visit the website have different priorities - specific dates, a challenging trek, snow etc. And some don't. Our design needed to balance accomodating all these.`
+          `Trekkers who visit the website have different priorities - specific dates, taking on a challenge, snow etc. And some don't. Our design needed to balance accomodating all these.`
       },
       {
         img: ihImg2,
         text:
-          'Revamped reviews section of Indiahikes - where its possible to hear what other trekkers had to say about any aspect of any trek. (under content development as of this writing)'
+          'Revamped reviews section of Indiahikes - where its possible to hear what other trekkers had to say about any aspect of any trek (under content development as of this writing).'
       },
       {
         img: ihImg3,
         text:
-          'Revamped adventure education sectio targetting schools, colleges and corporates. (under content development as of this writing)'
+          'Revamped adventure education section targetting schools, colleges and corporates (under content development as of this writing).'
       }
     ]
   },
@@ -179,9 +179,9 @@ export default [
     roles:['product management', 'full stack engineering', 'supply chain management', 'industrial design', 'prototyping'],
     desc:
       `
-      <p><a href="http://yoky.io/tag" target="_blank">Yoky Tag</a> is a Bluetooth Low Energy (BLE) powered device that helps you keep track of the belongings you tag them onto. It works in tandem with a companion app available on both Android and iOS smartphones. It was launched in 2016 and was featured in <a href="https://www.livemint.com/Leisure/oO9albNSGCcT3RZxBCxgSO/Yoky-Tag-review-For-finding-misplaced-keys-and-more.html" target="_blank">Mint</a>, <a href="https://www.business-standard.com/article/technology/yoky-because-it-s-human-to-forget-116073100790_1.html" target="_blank">Business Standard</a>, <a href="https://www.deccanchronicle.com/technology/gadgets/290716/in-a-new-yoky-state-of-find.html" target="_blank">Deccan Chronicle</a>, <a href="https://www.mid-day.com/articles/tech-new-wireless-tracker-will-ensure-youll-never-lose-your-belongings/17529176" target="_blank">Mid-Day</a> among others.</p>
-      <p>While working at <a href="http://gida.in" target="_blank">Gida</a> (a product and service development company), we saw BLE maturing as a technology and decided to work on this idea. Taking it from concept to prototype and finally into production took over two years and several design iterations.</p>
-      <p>I was responsible for two major pieces of making this happen. First, the design and supply chain for all non-electronic components.  For this, I scouted, shortlisted and worked with a number of vendors (plastics, rubber, waterproofing, packaging, 3D printing) in India and China.  The second piece was the end to end purchase and shipping experience. This included development of the website where customers could learn about the product and personalise it (we offered customer-uploaded images and colors) all the way to our backend system used to assemble the ordered units and ship it with providers like FedEx</p>
+      <p><a href="http://yoky.io/tag" target="_blank">Yoky Tag</a> is a Bluetooth Low Energy (BLE) powered device that helps you keep track of the belongings you tag them onto. It works in tandem with a companion app available on both Android and iOS smartphones. It was launched in 2016 and was featured in <a href="https://www.livemint.com/Leisure/oO9albNSGCcT3RZxBCxgSO/Yoky-Tag-review-For-finding-misplaced-keys-and-more.html" target="_blank">Mint</a>, <a href="https://www.business-standard.com/article/technology/yoky-because-it-s-human-to-forget-116073100790_1.html" target="_blank">Business Standard</a>, <a href="https://www.deccanchronicle.com/technology/gadgets/290716/in-a-new-yoky-state-of-find.html" target="_blank">Deccan Chronicle</a>, <a href="https://www.mid-day.com/articles/tech-new-wireless-tracker-will-ensure-youll-never-lose-your-belongings/17529176" target="_blank">Mid-Day</a> among other media outlets.</p>
+      <p>While working at <a href="http://gida.in" target="_blank">Gida</a> (a product and service development company), we saw BLE maturing as a technology and decided to work on this idea. Taking it from concept to prototype and finally into production nearly two years and several design iterations.</p>
+      <p>I was responsible for two major pieces of making this happen. First, the design and supply chain for all non-electronic components.  For this, I scouted, shortlisted and worked with a number of vendors (plastics, rubber, waterproofing, packaging, 3D printing) in India and China.  The second piece was the end to end purchase and shipping experience. This included development of the website where customers could learn about the product and personalise it (we offered customer-uploaded images and colors) all the way to our backend system used to assemble the ordered units and ship it with providers like FedEx.</p>
       `,
     info: [
       {
@@ -286,7 +286,7 @@ export default [
     slides: [
       {
         img: airtelImg1,
-        text: 'The casting experience was simulated by allowing users to cast from their own mobile phones (paired using a code) or the mobile phone held by the hand on screen.'
+        text: 'The casting experience was simulated by allowing users to cast from their own mobile phones (paired using a code) or the on-screen mobile phone.'
       },
       {
         img: airtelImg2,

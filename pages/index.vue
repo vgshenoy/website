@@ -2,7 +2,7 @@
   <div>
     <section class="section intro">
       <p>
-        Hi, I'm <a href="#about"><strong>Vignesh Shenoy</strong></a>. I work at the intersection of design, code and data to build compelling products and experiences. These are projects I've worked on over the past few years.
+        Hi, I'm <a href="#about"><strong>Vignesh Shenoy</strong></a>. I work at the intersection of design, code and data to build compelling products and experiences. These are a few projects I've worked on over the past few years.
       </p>
     </section>
     
@@ -15,14 +15,14 @@
       <div class="title">About</div>
       <div class="content">
         <p> 
-          I'm an engineer and designer based in Bangalore, India. I currently do freelance work on product development spanning engineering, design and product management. If you have an interesting idea or project on your hands, let's <a href="mailto: vignesh.shenoy@gmail.com">chat</a>.
+          I'm an engineer and designer based in Bangalore, India. I currently do freelance work on product development spanning engineering, prototyping and product management. If you have an interesting idea or project on your hands, let's <a href="mailto: vignesh.shenoy@gmail.com">chat</a>.
         </p>
         <p>
-          Prior to building things such as those listed above, I was a consultant at <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a>, where I helped blue chip companies with their business, strategy and operations across India and Asia. Earlier, I studied engineering at
+          Prior to building things such as those above, I was a consultant at <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a>, where I helped blue chip companies with their business, strategy and operations across India and Asia. Earlier, I studied engineering at
           <a target="_blank" href="https://www.iitm.ac.in/">IIT Madras</a>.
         </p>
         <p>
-          When I'm not working on professional projects, I enjoy adventure travel (as documented on <a href="http://youtube.com/user/etothepipplus1/videos">Youtube</a> and <a href="http://instagram.com/vigneshenoy">Instagram</a>) and playing competitive sports (ultimate frisbee and football are my jam).
+          When I'm not working on professional projects, I enjoy adventure travel (documented on <a href="http://youtube.com/user/etothepipplus1/videos">Youtube</a> and <a href="http://instagram.com/vigneshenoy">Instagram</a>) and playing competitive sports (ultimate frisbee and football are my jam these days).
         </p>
       </div>
       <ul class="links columns is-multiline">

@@ -23,6 +23,10 @@
               <p>
                 <strong>{{p.title}}</strong>
                 <span class="short-desc" v-html="p.shortDesc"></span>
+                <!-- <span>→</span> -->
+                <!-- <span class="icon">
+                  <i class="fa fa-arrow-right"></i>
+                </span> -->
               </p>
             </div>
             <div class="tags">
@@ -71,8 +75,15 @@ export default {
     color: #4a4a4a;
     margin-top: 20px;
   }
-}
-.project:last-child {
-  // border-bottom: none;
+  .short-desc::after {
+    // font: normal 16px StripeIcons;
+    content: "\2192";
+    padding-left: 5px;
+    color: tomato;
+    font-size: 1rem;
+  }
+  .icon {
+    font-size: 0.6rem;
+  }
 }
 </style>
