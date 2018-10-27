@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "npm run generate && cp now.json dist/ && cd dist/ && now && now alias"
+    "deploy": "npm run generate && cp now.json dist/ && cd dist/ && now --public && now alias"
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.0.2",

@@ -14,13 +14,6 @@ body {
   padding: 5vh 0;
 }
 
-a {
-  // color: tomato;
-  &:hover {
-    // color: orange;
-    text-decoration: underline;
-  }
-}
 
 .project-enter-active, .home-enter-active {
   transition: all 2000ms cubic-bezier(.19,1,.22,1) 240ms;

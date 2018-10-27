@@ -74,13 +74,13 @@ export default {
   .short-desc {
     color: #4a4a4a;
     margin-top: 20px;
-  }
-  &:hover .short-desc::after {
-    // font: normal 16px StripeIcons;
-    content: "\2192";
-    padding-left: 5px;
-    color: tomato;
-    font-size: 1rem;
+    &::after {
+      // font: normal 16px StripeIcons;
+      content: "\2192";
+      padding-left: 5px;
+      color: tomato;
+      font-size: 1rem;
+    }
   }
   .icon {
     font-size: 0.6rem;
