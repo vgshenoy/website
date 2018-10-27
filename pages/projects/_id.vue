@@ -12,12 +12,12 @@
   
     <div class="section project">
       <div class="title">{{project.title}}</div>
-  
-      <div class="content" v-html="project.desc"></div>
 
       <div class="tags">
-        <span class="tag" v-for="role in roles">{{role}}</span>
+        <span class="tag" v-for="role in project.roles">{{role}}</span>
       </div>
+  
+      <div class="content" v-html="project.desc"></div>
   
       <div class="columns projects">
         <div class="column item" v-for="item in project.info" :key="item.projectId">

@@ -2,7 +2,7 @@
   <div>
     <section class="section intro">
       <p>
-        Hi, I'm <a href="#about"><strong>Vignesh Shenoy</strong></a>. I work at the intersection of design, code and data to build compelling products and experiences. These are a few projects I've worked on over the past few years.
+        Hi, I'm <a href="#about"><strong>Vignesh Shenoy</strong></a>. I work at the intersection of design, code and data to build compelling products and experiences. These are some projects I've worked on over the past few years.
       </p>
     </section>
     

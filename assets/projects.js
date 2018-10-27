@@ -24,6 +24,7 @@ import denImg3 from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../asset
 import denImg4 from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../assets/images/den/4.jpg'
 
 import sotgVid1  from '../assets/images/sotg/test_anatomy.mp4'
+import sotgVid2  from '../assets/images/sotg/football_anatomy.mp4'
 import sotgThumb from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../assets/images/sotg/thumb.jpg'
 import sotgImg1 from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../assets/images/sotg/waterfall_innings.jpg'
 
@@ -100,8 +101,8 @@ export default [
       'is a collection of data-driven, visual, interactive explorations with a focus on sports',
     roles:['prototyping', 'data viz', 'data science'],
     desc:
-      `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a personal project that was born from a desire to better 'see' the ebb and flow of cricket and football matches through data visualisation.</p>
-      <p>The first step along the way was getting hold of data, and while there are some good data resoruces out there, I often had to write scrapers with <a href="http://nodejs.org" target="_blank">Node.js</a> and <a href="http://python.org" target="_blank">Python</a> to get what I needed. To prototype and play with the data I wanted to use a mix of <a href="http://vuejs.org" target="_blank">Vue.js</a> and <a href="http://d3js.org" target="_blank">D3.js</a>. However, they don’t play well with each other out of the box, and I had to spend time and effort to finetune my workflow by writing helper components.</p>`,
+      `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a collection of data-driven, visual, interactive explorations. I was using data viz and data science tools at <a href="/nostragamus" target="_blank">Nostragamus</a> and got interested in playing with sports data.</p> 
+      <p>The first step is getting hold of good data, and sometimes that involves writing scripts and scrapers. To analyse, prototype and play with the data I use a mix of <a href="http://python.org" target="_blank">Python</a>, <a href="http://vuejs.org" target="_blank">Vue.js</a> and <a href="http://d3js.org" target="_blank">D3.js</a>`,
     info: [
       {
         heading: 'Links',
@@ -116,12 +117,12 @@ export default [
       {
         video: sotgVid1,
         text:
-          'Bringing out ups and downs in a cricket test match that do not come out with conventional cricket scorecards.'
+          'Bringing out the ebb and flow of a cricket test match'
       },
       {
-        img: sotgImg1,
+        video: sotgVid2,
         text:
-          'Seeing contributions of batsmen and bowlers at a glance with scroll-driven interactions.'
+          'Prototype for a football match - posession movement in time and space'
       }
     ]
   },
@@ -175,7 +176,7 @@ export default [
     thumb: yokyThumb,
     title: 'Yoky Tag',
     shortDesc:
-      'is an IoT product that helps you keep track of your belongings.',
+      'is an IoT product that helps you keep track of your belongings',
     roles:['product management', 'full stack engineering', 'supply chain management', 'industrial design', 'prototyping'],
     desc:
       `
@@ -227,7 +228,7 @@ export default [
     id: 'den',
     thumb: denThumb,
     title: 'Network Rollout Manager',
-    shortDesc: 'is a web app for DEN Networks to track and monitor the rollout of broadband network elements across India.',
+    shortDesc: 'is a web app for DEN Networks to track and monitor the rollout of broadband network elements across India',
     roles:['full stack engineering', 'prototyping'],
     desc: `<p><a href="http://www.dennetworks.com" target="_blank">DEN Networks</a> is the largest cable TV distribution provider in India. In 2014, they doubled down on the broadband arm of their business which entailed rapid geographic expansion of their physical network.</p> 
     <p>At Gida, we worked with the internal team to build and deploy a system that efficiently tracked and monitored rollouts with network tree diagrams, Gantt charts and task management modules. The system also had to allow dynamic creation of accounts and permission handling for DEN's contractors.</p>`,
@@ -265,7 +266,7 @@ export default [
     id: 'airtel-chromecast',
     thumb: airtelThumb,
     title: 'Airtel/Chromecast Experience',
-    shortDesc: 'is an immersive web app to simulate the casting experience in the browser.',
+    shortDesc: 'is an immersive web app to simulate the casting experience in the browser',
     roles:['full stack engineering', 'prototyping'],
     desc: `<p>In 2014, Google partnered with <a href="http://airtel.com" target="_blank">Airtel</a> to bring the <a href="https://store.google.com/us/product/chromecast" target="_blank">Chromecast</a> to the Indian market. Gida worked on building an online experience for the launch.</p> <p>Leveraging websocket protocols, we built an immersive web experience that allowed visitors to control video playback on desktop browsers from their smartphones, thereby simulating the 'magic' and convenience of the casting experience.</p>`,
     info: [

@@ -75,7 +75,7 @@ export default {
     color: #4a4a4a;
     margin-top: 20px;
   }
-  .short-desc::after {
+  &:hover .short-desc::after {
     // font: normal 16px StripeIcons;
     content: "\2192";
     padding-left: 5px;
