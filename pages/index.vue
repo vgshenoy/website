@@ -18,7 +18,7 @@
           I'm an engineer and designer based in Bangalore, India. I currently do freelance work on product development spanning engineering, prototyping and product management. If you have an interesting idea or project on your hands, let's <a href="mailto: vignesh.shenoy@gmail.com">chat</a>.
         </p>
         <p>
-          Prior to building things such as those above, I was a consultant at <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a>, where I helped blue chip companies with their business, strategy and operations across India and Asia. Earlier, I studied engineering at
+          Prior to building things such as those above, I was a consultant at <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a>. Earlier, I studied engineering at
           <a target="_blank" href="https://www.iitm.ac.in/">IIT Madras</a>.
         </p>
         <p>

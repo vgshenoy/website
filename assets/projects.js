@@ -25,6 +25,7 @@ import denImg4 from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../asset
 
 import sotgVid1  from '../assets/images/sotg/test_anatomy.mp4'
 import sotgVid2  from '../assets/images/sotg/football_anatomy.mp4'
+import sotgVid3  from '../assets/images/sotg/kohli-10000.mp4'
 import sotgThumb from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../assets/images/sotg/thumb.jpg'
 import sotgImg1 from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../assets/images/sotg/waterfall_innings.jpg'
 
@@ -98,11 +99,11 @@ export default [
     thumb: sotgThumb,
     title: 'Shape of the Game',
     shortDesc:
-      'is a collection of data-driven, visual, interactive explorations with a focus on sports',
+      'is a collection of data-driven, interactive explorations with a focus on sports',
     roles:['prototyping', 'data viz', 'data science'],
     desc:
-      `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a collection of data-driven, visual, interactive explorations. I was using data viz and data science tools at <a href="/nostragamus" target="_blank">Nostragamus</a> and got interested in playing with sports data.</p> 
-      <p>The first step is getting hold of good data, and sometimes that involves writing scripts and scrapers. To analyse, prototype and play with the data I use a mix of <a href="http://python.org" target="_blank">Python</a>, <a href="http://vuejs.org" target="_blank">Vue.js</a> and <a href="http://d3js.org" target="_blank">D3.js</a>`,
+      `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a collection of data-driven, visual, interactive explorations. I was using data viz and data science tools to better understand user behaviour, and started applying it to sports data too.</p> 
+      <p>I like to use Python to scrape, wrangle and start running initial explorations on the data. To build in custom tooling and interactivity I use Vue.js and D3.js.`,
     info: [
       {
         heading: 'Links',
@@ -115,14 +116,19 @@ export default [
     ],
     slides: [
       {
-        video: sotgVid1,
+        video: sotgVid3,
         text:
-          'Bringing out the ebb and flow of a cricket test match'
+          'Charting out the top scorers over the years in One Day International Cricket'
       },
       {
         video: sotgVid2,
         text:
-          'Prototype for a football match - posession movement in time and space'
+          'Prototype for a football match: posession movement in time and space'
+      },
+      {
+        video: sotgVid1,
+        text:
+          'Bringing out the ebb and flow of a cricket test match'
       }
     ]
   },
@@ -131,7 +137,7 @@ export default [
     thumb: ihThumb,
     title: 'Indiahikes',
     shortDesc:
-      "is India's largest trekking community where I prototyped and designed key parts of their online experience",
+      "is India's largest trekking community - I prototyped and designed key parts of their online experience",
     roles: ['prototyping'],
     desc:
       `
