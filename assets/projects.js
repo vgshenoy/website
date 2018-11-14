@@ -45,7 +45,7 @@ export default [
     roles:[ 'product management', 'full stack engineering', 'prototyping', 'data viz', 'data science'],
     desc:
       `<p><a href="http://nostragamus.in" target="_blank">Nostragamus</a> is a daily fantasy sports app with a twist - instead of picking a full team within constraints of a budget, users have to answer a series of questions about player or team performances. Each question comes with context and statistics, which put together, serve as a compact preview of upcoming matches. Since launch, Nostragamus has grown to over a million registered users at over 50K daily active users in traffic.</p>
-      <p>I created this concept for <a href="http://sportscafe.in/" target="_blank">Sportscafe</a> in 2016, when they were exploring an interactive angle to their sports coverage. Offerings in the fantasy sports space at the time were heavily geared towards 'Pro' users, who had the time and motivation to stay on top of sports news and carefully build a team keeping in-game budget constraints in mind. I wanted to create something that could bring more casual sports followers into the fold.</p>
+      <p>I created this concept for <a href="http://sportscafe.in/" target="_blank">Sportscafe</a> in 2016, when they were exploring an interactive angle to their sports coverage. Offerings in the fantasy sports space tend to be geared towards 'Pro' users, who have the time and motivation to stay on top of sports news and carefully build a team keeping in-game budget constraints in mind. I wanted to create something that could bring more casual sports followers into the fold.</p>
       <p>I wireframed early prototypes on paper and <a href="http://www.sketchapp.com/" target="_blank">Sketch</a>, and then lead product development into launch in early 2017, working closely with the design, engineering and content teams at Sportscafe. A critical piece in the system that I architected is an admin portal + database that allows the content team to create questions and push out content on a daily basis to the app. To build this out I leaned on <a href="http://vuejs.org" target="_blank">Vue.js</a> + <a href="http://nodejs.org" target="_blank">Node.js</a> + <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a>.</p>
       <p>More recently, I have been working on building tools to understand user behaviour, gameplay and spend patterns, so that it may be translated into better contest structures, features and marketing efforts.</p>`
       ,
@@ -99,11 +99,11 @@ export default [
     thumb: sotgThumb,
     title: 'Shape of the Game',
     shortDesc:
-      'is a collection of data-driven, interactive explorations with a focus on sports',
+      'is a personal project where I experiment with data-driven, interactive explorations in sports and other topics',
     roles:['prototyping', 'data viz', 'data science'],
     desc:
-      `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a collection of data-driven, visual, interactive explorations. I was using data viz and data science tools to better understand user behaviour, and started applying it to sports data too.</p> 
-      <p>I like to use Python to scrape, wrangle and start running initial explorations on the data. To build in custom tooling and interactivity I use Vue.js and D3.js.`,
+      `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a personal project where I experiment with data-driven, interactive explorations in sports and other topics. It began when I was using data viz and data science tools to understand user behaviour, and started playing around with sports data in my spare time.</p> 
+      <p>In working on any of these explorations, I typically use Python to scrape, wrangle and start running initial explorations on the data. Following that, I like to move into Vue+D3 to build in custom views and interactivty.`,
     info: [
       {
         heading: 'Links',
@@ -123,12 +123,12 @@ export default [
       {
         video: sotgVid2,
         text:
-          'Prototype for a football match: posession movement in time and space'
+          'Prototype to visualise possession distribution in football in space and time'
       },
       {
         video: sotgVid1,
         text:
-          'Bringing out the ebb and flow of a cricket test match'
+          'Prototype to bring out the ebb and flow in a cricket test match'
       }
     ]
   },
@@ -143,7 +143,7 @@ export default [
       `
       <p><a href="http://indiahikes.com" target="_blank">Indiahikes</a> is India’s largest trekking community - they run over 20 treks in various ranges of the Himalayas, drive conservation efforts and undertake outdoor education programmes as well.</p>
       <p>I first came on board in 2017, when I redesigned the online flow of a user browsing treks and picking one to book themselves on. To design the new flow, we laid out all the factors that trekkers might consider while making a choice including time of the year, region, snow cover, flora and fauna. We then segmented and profiled visitors according to their trekking experience. For instance, a large number of trekkers are first-timers while experienced trekkers are interested only in moderate to difficult treks. Keeping the size and needs of these segments in mind, the the final design had to be a balance between recommendation, exploration and availability.</p>
-      <p>I took an experimental approach in this project of rapid prototyping in <a href="http://vuejs.org" target="_blank">Vue.js</a>. Leveraging <a href="http://bulma.io" target="_blank">Bulma</a> for styling and several open source Vue components for functionality allowed me to iterate at speed and I deployed updates using Zeit’s <a href="https://zeit.co/now" target="_blank">Now</a> to <a href="http://ih-treks.now.sh" target="_blank">ih-treks.now.sh</a>. This allowed the team at Indiahikes to see and play around with responsive, interactive versions of my design, rather than static mobile, tablet and desktop versions.</p>
+      <p>I took an experimental approach in this project of rapid prototyping in <a href="http://vuejs.org" target="_blank">Vue.js</a>. Leveraging <a href="http://bulma.io" target="_blank">Bulma</a> for styling and a few open source Vue components for functionality allowed iteration at speed and I deployed these iterations using Zeit’s <a href="https://zeit.co/now" target="_blank">Now</a> to <a href="http://ih-treks.now.sh" target="_blank">ih-treks.now.sh</a>. This allowed the team at Indiahikes to see and play around with responsive, interactive versions of my design, rather than static and separate mobile, tablet and desktop versions.</p>
       `,
     info: [
       {

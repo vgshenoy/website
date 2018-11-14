@@ -1,9 +1,17 @@
 <template>
   <div>
     <section class="section intro">
-      <p>
-        Hi, I'm <a href="#about"><strong>Vignesh Shenoy</strong></a>. I work at the intersection of design, code and data to build compelling products and experiences. These are some projects I've worked on over the past few years.
-      </p>
+      <div class="content">
+        <p>
+          Hi, I'm <a href="#about"><strong>Vignesh Shenoy</strong></a>. I work at the intersection of design, code and data to build compelling products and experiences.
+        </p>
+        <p>
+          I'm reachable at <a href="mailto:vignesh.shenoy@gmail.com">vignesh.shenoy@gmail.com</a>. I'm also on <a href="https://twitter.com/vgshenoy" target="_blank">Twitter</a>, <a href="https://github.com/shenoy" target="_blank">Github</a>, <a href="https://linkedin.com/in/vigneshenoy" target="_blank">LinkedIn</a>, <a href="https://www.youtube.com/user/etothepipplus1/videos" target="_blank">YouTube</a> and <a href="https://instagram.com/vigneshenoy" target="_blank">Instagram</a>.
+        </p>
+        <p>
+          Here are some projects I've worked on over the past few years.
+        </p>
+      </div>
     </section>
     
     <section class="section projects" id="projects">
