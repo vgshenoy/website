@@ -59,16 +59,6 @@
   
     <hr>
     <nav class="level bottom-projects">
-      <div class="level-right">
-        <div class="level-item" v-if="nextProject">
-          <a @click="goToNextProject()">
-            <span>{{nextProject.title}}</span>
-            <span class="icon">
-              <i class="fa fa-angle-right"></i>
-            </span>
-          </a>
-        </div>
-      </div>
       <div class="level-left">
         <div class="level-item" v-if="prevProject">
           <a @click="goToPrevProject()">
@@ -76,6 +66,16 @@
               <i class="fa fa-angle-left"></i>
             </span>
             <span>{{prevProject.title}}</span>
+          </a>
+        </div>
+      </div>
+      <div class="level-right">
+        <div class="level-item" v-if="nextProject">
+          <a @click="goToNextProject()">
+            <span>{{nextProject.title}}</span>
+            <span class="icon">
+              <i class="fa fa-angle-right"></i>
+            </span>
           </a>
         </div>
       </div>
@@ -184,8 +184,5 @@ export default {
 
 .bottom-projects {
   margin-bottom: 150px;
-  .level-left {
-    margin-top: 1.5rem;
-  }
 }
 </style>
