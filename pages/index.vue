@@ -6,7 +6,7 @@
           Hi, I'm <a href="#about"><strong>Vignesh Shenoy</strong></a>. I work at the intersection of design, code and data to build compelling products and experiences.
         </p>
         <p>
-          I'm at
+          You can reach me at
           <a href="mailto:vignesh.shenoy@gmail.com">
             <span class="icon">
               <i class="fa fa-envelope"></i>
@@ -28,9 +28,9 @@
           <a href="https://instagram.com/vigneshenoy" target="_blank">Instagram</a> 
           and <a href="https://linkedin.com/in/vigneshenoy" target="_blank">LinkedIn</a>. -->
         </p>
-        <p>
+        <!-- <p>
           These are some projects I've worked on over the past few years.
-        </p>
+        </p> -->
       </div>
     </section>
     
@@ -42,15 +42,12 @@
     <section class="section about" id="about">
       <div class="title">About</div>
       <div class="content">
-        <p> 
-          I'm an engineer and designer based in Bangalore, India. I'm currently taking up freelance work on product development spanning engineering, prototyping and product management. So if you have an interesting idea or project on your hands, let's <a href="mailto: vignesh.shenoy@gmail.com">chat</a>.
-        </p>
         <p>
-          Prior to building things such as those above, I was a consultant at <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a>. Earlier, I studied engineering at
+          I'm an engineer and designer based in Bangalore, India. Before building products/experiences such as those above, I was a consultant at <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a>. Prior to that, I studied engineering at
           <a target="_blank" href="https://www.iitm.ac.in/">IIT Madras</a>.
         </p>
         <p>
-          When I'm not working on professional projects, I enjoy adventure travel (as seen on <a href="http://youtube.com/user/etothepipplus1/videos" target="_blank">Youtube</a> and <a href="http://instagram.com/vigneshenoy" target="_blank">Instagram</a>) and playing competitive sports (ultimate frisbee and football are my jam these days).
+          When I'm not working on professional projects, I like to travel, trek and dive (and document these on <a href="http://youtube.com/user/etothepipplus1/videos" target="_blank">Youtube</a> and <a href="http://instagram.com/vigneshenoy" target="_blank">Instagram</a>). I also play competetive team sports - football, ultimate frisbee and cricket are my jam these days.
         </p>
       </div>
       <ul class="links columns is-multiline">
@@ -95,6 +92,11 @@ export default {
 </script>
 
 <style lang="scss">
+.intro {
+  a {
+    white-space: nowrap;
+  }
+}
 .links {
   margin-top: 6vh;
 }

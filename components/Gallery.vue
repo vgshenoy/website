@@ -14,33 +14,28 @@
       </a>
     </li>
   </ul> -->
-  <ul>
-    <li class="project" v-for="(p, i) in projects" :key="p.id">
-      <a @click="goToProject(p.id)">
-        <div class="columns">
-          <div class="column is-7 content">
-            <div class="content">
-              <p>
-                <strong>{{p.title}}</strong>
-                <span class="short-desc" v-html="p.shortDesc"></span>
-                <!-- <span>→</span> -->
-                <!-- <span class="icon">
-                  <i class="fa fa-arrow-right"></i>
-                </span> -->
-              </p>
-            </div>
+  <div>
+    <ul class="columns is-multiline">
+      <li class="column is-one-third project" v-for="(p, i) in projects" :key="p.id">
+        <a @click="goToProject(p.id)">
+          <img-wrapper :src="p.thumb"></img-wrapper>
+          <div class="content">
+            <p>
+              <strong>{{p.title}}</strong>
+              <span class="short-desc" v-html="p.shortDesc"></span>
+              <!-- <span>→</span> -->
+              <!-- <span class="icon">
+                <i class="fa fa-arrow-right"></i>
+              </span> -->
+            </p>
             <div class="tags">
               <span class="tag" v-for="role in p.roles">{{role}}</span>
             </div>
           </div>
-          <div class="column">
-            <img-wrapper :src="p.thumb"></img-wrapper>
-          </div>
-        </div>
-      </a>
-      <hr v-if="i < projects.length - 1">
-    </li>
-  </ul>
+        </a>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
@@ -53,6 +48,8 @@ export default {
   props: ['projects'],
   methods: {
     goToProject(projectId) {
+      const webLink = this.projects.find(p => p.id == projectId).link;
+      if(webLink) return window.open(webLink);
       let screen = document.getElementById('screen');
       screen.classList.add('is-transition');
       screen.classList.remove('pulled-up');
@@ -66,9 +63,10 @@ export default {
 
 <style lang="scss" scoped>
 .project {
-  // margin-bottom: 30px;
+  font-size: 0.9em;
+  margin-bottom: 3rem;
   .columns {
-    align-items: center;
+    // align-items: center;
     transition: all 300ms;
   }
   .short-desc {

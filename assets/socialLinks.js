@@ -18,10 +18,11 @@ export default [
     url: 'https://twitter.com/vgshenoy'
   },
   {
-    faClass: 'fa-instagram',
-    name: 'Instagram',
-    handle: 'vigneshenoy',
-    url: 'https://instagram.com/vigneshenoy'
+      faClass: 'fa-linkedin',
+      name: 'Linkedin',
+      handle: 'vigneshenoy',
+      url: 'https://www.linkedin.com/in/vigneshenoy/'
+
   },
   {
     faClass: 'fa-youtube',
@@ -29,17 +30,16 @@ export default [
     handle: 'etotheipiplus1',
     url: 'https://www.youtube.com/user/etothepipplus1/videos'
   },
+  {
+    faClass: 'fa-instagram',
+    name: 'Instagram',
+    handle: 'vigneshenoy',
+    url: 'https://instagram.com/vigneshenoy'
+  },
   // {
   //   faClass: 'fa-medium',
   //   name: 'Medium',
   //   handle: 'vigneshenoy',
   //   url: 'https://medium.com/@vigneshenoy'
-  // },
-  // {
-    //   faClass: 'fa-linkedin',
-    //   name: 'Linkedin',
-    //   handle: 'vigneshenoy',
-    //   url: 'https://www.linkedin.com/in/vigneshenoy/'
-    // 
-  // },
+  // }
 ]

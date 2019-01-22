@@ -1,3 +1,5 @@
+import vueScrollamaThumb from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../assets/images/vue-scrollama/thumb.jpg'
+
 import nostraThumb from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../assets/images/nostragamus/thumb.jpg'
 import nostraImg1 from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../assets/images/nostragamus/1.jpg'
 import nostraImg2 from '!!image-trace-loader?color=#BDCDD4&background=#FFF!../assets/images/nostragamus/2.jpg'
@@ -41,7 +43,7 @@ export default [
     thumb: nostraThumb,
     title: 'Nostragamus',
     shortDesc:
-      "is a daily fantasy sports app that makes engaging with live sporting action more convenient and accessible than ever before",
+      "is a daily fantasy sports app to engage with upcoming live sporting action",
     roles:[ 'product management', 'full stack engineering', 'prototyping', 'data viz', 'data science'],
     desc:
       `<p><a href="http://nostragamus.in" target="_blank">Nostragamus</a> is a daily fantasy sports app with a twist - instead of picking a full team within constraints of a budget, users have to answer a series of questions about player or team performances. Each question comes with context and statistics, which put together, serve as a compact preview of upcoming matches. Since launch, Nostragamus has grown to over a million registered users at over 50K daily active users in traffic.</p>
@@ -99,7 +101,7 @@ export default [
     thumb: sotgThumb,
     title: 'Shape of the Game',
     shortDesc:
-      'is a personal project where I experiment with data-driven, interactive explorations in sports and other topics',
+      'is a collection of data-driven, interactive explorations',
     roles:['prototyping', 'data viz', 'data science'],
     desc:
       `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a personal project where I experiment with data-driven, interactive explorations in sports and other topics. It began when I was using data viz and data science tools to understand user behaviour, and started playing around with sports data in my spare time.</p> 
@@ -133,17 +135,26 @@ export default [
     ]
   },
   {
+    id: 'vue-scrollama',
+    link: 'https://github.com/shenoy/vue-scrollama',
+    thumb: vueScrollamaThumb,
+    title: 'vue-scrollama',
+    shortDesc:
+      "is an open source Vue component to setup scroll-driven interactions (aka scrollytelling)",
+    roles:[ 'frontend engineering'],
+  },
+  {
     id: 'indiahikes',
     thumb: ihThumb,
-    title: 'Indiahikes',
+    title: 'indiahikes.com',
     shortDesc:
-      "is India's largest trekking community - I prototyped and designed key parts of their online experience",
+      "is the online experience of India's largest trekking provider and community",
     roles: ['prototyping'],
     desc:
       `
-      <p><a href="http://indiahikes.com" target="_blank">Indiahikes</a> is India’s largest trekking community - they run over 20 treks in various ranges of the Himalayas, drive conservation efforts and undertake outdoor education programmes as well.</p>
-      <p>I first came on board in 2017, when I redesigned the online flow of a user browsing treks and picking one to book themselves on. To design the new flow, we laid out all the factors that trekkers might consider while making a choice including time of the year, region, snow cover, flora and fauna. We then segmented and profiled visitors according to their trekking experience. For instance, a large number of trekkers are first-timers while experienced trekkers are interested only in moderate to difficult treks. Keeping the size and needs of these segments in mind, the the final design had to be a balance between recommendation, exploration and availability.</p>
-      <p>I took an experimental approach in this project of rapid prototyping in <a href="http://vuejs.org" target="_blank">Vue.js</a>. Leveraging <a href="http://bulma.io" target="_blank">Bulma</a> for styling and a few open source Vue components for functionality allowed iteration at speed and I deployed these iterations using Zeit’s <a href="https://zeit.co/now" target="_blank">Now</a> to <a href="http://ih-treks.now.sh" target="_blank">ih-treks.now.sh</a>. This allowed the team at Indiahikes to see and play around with responsive, interactive versions of my design, rather than static and separate mobile, tablet and desktop versions.</p>
+      <p><a href="http://indiahikes.com" target="_blank">Indiahikes</a> is India’s largest trekking community - they run over 20 treks in various ranges of the Himalayas, drive conservation efforts and undertake outdoor education programmes.</p>
+      <p>I first came on board in 2017, when I redesigned the online flow of a user browsing treks and picking one to book themselves on. To design the new flow, we laid out all factors that trekkers might consider while making a choice including time of the year, region, snow cover, flora and fauna. We then segmented and profiled visitors according to their trekking experience. For instance, a large number of trekkers are first-timers while experienced trekkers are interested only in moderate to difficult treks. Keeping the size and needs of these segments in mind, the final design had to be a balance between recommendation, exploration and availability.</p>
+      <p>In this project, I took a bit of an experimental approach of rapid prototyping in <a href="http://vuejs.org" target="_blank">Vue.js</a>. Leveraging <a href="http://bulma.io" target="_blank">Bulma</a> and open source Vue components allowed iteration at speed which I deployed using Zeit’s <a href="https://zeit.co/now" target="_blank">Now</a> to <a href="http://ih-treks.now.sh" target="_blank">ih-treks.now.sh</a>. This allowed the team at Indiahikes to see and play around with responsive, interactive versions of my design, rather than static and separate mobile, tablet and desktop versions.</p>
       `,
     info: [
       {
@@ -234,7 +245,7 @@ export default [
     id: 'den',
     thumb: denThumb,
     title: 'Network Rollout Manager',
-    shortDesc: 'is a web app for DEN Networks to track and monitor the rollout of broadband network elements across India',
+    shortDesc: 'is a web app for DEN Networks to track and monitor rollout of their broadband network across India',
     roles:['full stack engineering', 'prototyping'],
     desc: `<p><a href="http://www.dennetworks.com" target="_blank">DEN Networks</a> is the largest cable TV distribution provider in India. In 2014, they doubled down on the broadband arm of their business which entailed rapid geographic expansion of their physical network.</p> 
     <p>At Gida, we worked with the internal team to build and deploy a system that efficiently tracked and monitored rollouts with network tree diagrams, Gantt charts and task management modules. The system also had to allow dynamic creation of accounts and permission handling for DEN's contractors.</p>`,
