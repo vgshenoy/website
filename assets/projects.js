@@ -142,6 +142,20 @@ export default [
     shortDesc:
       "is an open source Vue component to setup scroll-driven interactions (aka scrollytelling)",
     roles:[ 'frontend engineering'],
+    desc:
+    `
+    <p><a href="https://github.com/shenoy/vue-scrollama" target="_blank">Vue-Scrollama</a> is an open source Vue component to easily setup scroll-driven interactions (aka scrollytelling) on the web.</p>
+    `,
+    info: [
+      {
+        heading: 'Links',
+        content: '<a href="https://github.com/shenoy/vue-scrollama" target="_blank">Github</a>'
+      },
+      {
+        heading: 'Period',
+        content: 'Nov 2018 - Present'
+      }
+    ],
   },
   {
     id: 'indiahikes',
