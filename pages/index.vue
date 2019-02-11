@@ -6,7 +6,7 @@
           Hi, I'm <a href="#about"><strong>Vignesh Shenoy</strong></a>. I work at the intersection of design, code and data to build compelling products and experiences.
         </p>
         <p>
-          You can reach me at
+          Reach me at
           <a href="mailto:vignesh.shenoy@gmail.com">
             <span class="icon">
               <i class="fa fa-envelope"></i>
