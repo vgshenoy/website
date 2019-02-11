@@ -102,7 +102,7 @@ export default [
     title: 'Shape of the Game',
     shortDesc:
       'is a collection of data-driven, interactive explorations',
-    roles:['prototyping', 'data viz', 'data science'],
+    roles:['data viz', 'frontend engineering', 'data science'],
     desc:
       `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a personal project where I experiment with data-driven, interactive explorations in sports and other topics. It began when I was using data viz and data science tools to understand user behaviour, and started playing around with sports data in my spare time.</p> 
       <p>In working on any of these explorations, I typically use Python to scrape, wrangle and start running initial explorations on the data. Following that, I like to move into Vue+D3 to build in custom views and interactivty.`,
