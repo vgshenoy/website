@@ -1,6 +1,6 @@
 <template>
   <div>
-    
+
     <a class="has-text-centered" @click="goToHome()">
       <div>
         <span class="icon">
@@ -9,16 +9,16 @@
       </div>
       <div>Back to Home</div>
     </a>
-  
+
     <div class="section project">
       <div class="title">{{project.title}}</div>
 
       <div class="tags">
         <span class="tag" v-for="role in project.roles">{{role}}</span>
       </div>
-  
+
       <div class="content" v-html="project.desc"></div>
-  
+
       <div class="columns projects">
         <div class="column item" v-for="item in project.info" :key="item.projectId">
           <small>
@@ -54,9 +54,9 @@
 
         </div>
       </div>
-  
+
     </div>
-  
+
     <hr>
     <nav class="level bottom-projects">
       <div class="level-left">
@@ -80,7 +80,7 @@
         </div>
       </div>
     </nav>
-  
+
   </div>
 </template>
 
@@ -91,7 +91,6 @@ import ImgWrapper from '~/components/ImgWrapper'
 export default {
   components: {ImgWrapper},
   transition: 'project',
-  scrollToTop: false,
   asyncData({ params }) {
     return {
       projectId: params.id,
