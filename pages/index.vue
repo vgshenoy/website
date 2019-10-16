@@ -28,9 +28,9 @@
           <a href="https://instagram.com/vigneshenoy" target="_blank">Instagram</a>
           and <a href="https://linkedin.com/in/vigneshenoy" target="_blank">LinkedIn</a>. -->
         </p>
-        <!-- <p>
-          These are some projects I've worked on over the past few years.
-        </p> -->
+        <p>
+          More about me <a href="#about">here</a>.
+        </p>
       </div>
     </section>
 
@@ -43,14 +43,14 @@
       <div class="title">About</div>
       <div class="content">
         <p>
-          I'm an engineer+designer based in Amsterdam. I currently work on bringing football insights to clubs and fans at <a target="_blank" href="https://scisports.com">SciSports</a>. Earlier, I built a variety of products/experiences such as those listed above, working with startups as well as larger companies.
+          I'm an engineer + designer based in Amsterdam, Netherlands. I currently work on bringing football insights to clubs and fans at <a target="_blank" href="https://scisports.com">SciSports</a>. Earlier, I built a variety of products/experiences, working with startups as well as larger companies.
         </p>
         <p>
           Prior to that, I worked as a consultant with <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a> after having studied engineering at
           <a target="_blank" href="https://www.iitm.ac.in/">IIT Madras</a>.
         </p>
         <p>
-          When I'm not working on professional projects, I like to travel, trek and dive (and document these on <a href="http://youtube.com/user/etothepipplus1/videos" target="_blank">Youtube</a> and <a href="http://instagram.com/vigneshenoy" target="_blank">Instagram</a>). I also play competetive team sports - football, ultimate frisbee and cricket are my jam these days.
+          When I'm not working on professional projects, I like to travel, hike and dive (while documenting these <a href="http://youtube.com/user/etothepipplus1/videos" target="_blank">Youtube</a> and <a href="http://instagram.com/vigneshenoy" target="_blank">Instagram</a>). I also enjoy playing competitive team sports - football, ultimate frisbee and cricket are my jam these days.
         </p>
       </div>
       <ul class="links columns is-multiline">
