@@ -36,17 +36,18 @@
 
     <section class="section projects" id="projects">
       <div class="title">Projects</div>
-      <gallery :projects="projects"></gallery>
+      <Gallery :projects="projects" />
     </section>
 
     <section class="section about" id="about">
       <div class="title">About</div>
       <div class="content">
         <p>
-          I'm an engineer + designer based in Amsterdam, Netherlands. I currently work on bringing football insights to clubs and fans at <a target="_blank" href="https://scisports.com">SciSports</a>. Earlier, I built a variety of products/experiences, working with startups as well as larger companies.
+          I'm an engineer + designer based in Amsterdam, Netherlands. I currently work on bringing football insights to clubs and fans at <a target="_blank" href="https://scisports.com">SciSports</a>. Previously, I built a variety of
+          <a href="#projects">products/experiences</a>, working with startups as well as larger companies.
         </p>
         <p>
-          Prior to that, I worked as a consultant with <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a> after having studied engineering at
+          Before that, I worked as a consultant with <a target="_blank" href="http://www.mckinsey.com/">McKinsey & Company</a> after having studied engineering at
           <a target="_blank" href="https://www.iitm.ac.in/">IIT Madras</a>.
         </p>
         <p>
