@@ -9,7 +9,7 @@ export default [
     faClass: 'fa-github',
     name: 'Github',
     handle: 'shenoy',
-    url: 'https://github.com/shenoy'
+    url: 'https://github.com/vgshenoy'
   },
   {
     faClass: 'fa-twitter',

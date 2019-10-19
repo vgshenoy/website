@@ -22,7 +22,7 @@
               <span>{{link.name}}</span>
             </a>
           </span>.
-          <!-- <a href="https://github.com/shenoy" target="_blank">Github</a>,
+          <!-- <a href="https://github.com/vgshenoy" target="_blank">Github</a>,
           <a href="https://twitter.com/vgshenoy" target="_blank">Twitter</a>,
           <a href="https://www.youtube.com/user/etothepipplus1/videos" target="_blank">YouTube</a>,
           <a href="https://instagram.com/vigneshenoy" target="_blank">Instagram</a>
