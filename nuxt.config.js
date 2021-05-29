@@ -21,7 +21,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Barlow|Gudea|K2D|Noto+Serif+JP|Open+Sans',
+        href: 'https://fonts.googleapis.com/css?family=Barlow',
       },
       {
         rel: 'stylesheet',
