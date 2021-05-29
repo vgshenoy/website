@@ -135,4 +135,7 @@ export default {
 .links {
   margin-top: 6vh;
 }
+.link {
+  white-space: nowrap;
+}
 </style>
