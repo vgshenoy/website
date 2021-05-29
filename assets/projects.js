@@ -43,7 +43,7 @@ export default [
     title: 'Shape of the Game',
     shortDesc: 'is a collection of data-driven, interactive explorations',
     roles: ['data viz', 'frontend engineering', 'data science'],
-    desc: `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a personal project where I experiment with data-driven, interactive explorations in sports and other topics. It began when I was using data viz and data science tools to understand user behaviour, and started playing around with sports data in my spare time.</p>
+    desc: `<p><a href="http://shapeofthegame.com" target="_blank">Shape of the Game</a> is a personal project where I experiment with data-driven, interactive explorations in sports and other topics. It started out when I was using data viz and data science tools to understand user behaviour, and started playing around with sports data in my spare time.</p>
       <p>In working on any of these explorations, I typically use Python to scrape, wrangle and start running initial explorations on the data. Following that, I like to move into Vue+D3 to build in custom views and interactivty.</p>
       <p>The first two pieces published won an <a href="https://www.informationisbeautifulawards.com/showcase/3811-kohli-s-path-to-10-000-runs-charted" target="_blank">Information is Beautiful Awards shortlist</a> and a <a href="https://pudding.cool/process/pudding-cup-2019/" target="_blank">Pudding Cup</a> respectively.</p>`,
     info: [
@@ -101,7 +101,7 @@ export default [
       },
       {
         heading: 'Period',
-        content: `<ul><li><a href="http://nostragamus.in" target="_blank">Website</a></li><li><a href="http://nostragamus.in" target="_blank">Website</a></li></ul>`,
+        content: `Apr 2016 - Jan 2019`,
       },
     ],
     slides: [
@@ -178,7 +178,7 @@ export default [
       },
       {
         heading: 'Period',
-        content: 'Oct 2017 - Present',
+        content: 'Oct 2017 - Feb 2018',
       },
     ],
     slides: [

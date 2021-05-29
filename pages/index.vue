@@ -51,8 +51,8 @@
         <p>
           I currently lead Frontend Engineering at
           <a target="_blank" href="https://scisports.com">SciSports</a>, where
-          we build a variety of data-driven interfaces to help football clubs
-          make better decisions.
+          we build data-driven interfaces to help football clubs make better
+          decisions.
         </p>
         <p>
           In the preceding years, I built a variety of
@@ -78,9 +78,9 @@
           and
           <a href="http://instagram.com/vigneshenoy" target="_blank"
             >Instagram</a
-          >). I've also been playing competitive sports since a young age and
-          continue to do so - cricket, football and ultimate frisbee are my
-          all-time faves.
+          >). Playing competitive sports has been a big part of my life since a
+          young age - cricket, football and ultimate frisbee are my all-time
+          faves.
         </p>
       </div>
       <ul class="links columns is-multiline">
