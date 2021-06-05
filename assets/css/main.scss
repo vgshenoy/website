@@ -1,6 +1,3 @@
-
-$link: tomato;
-
 @import '~bulma/bulma';
 
 html {
@@ -31,4 +28,14 @@ body {
 .home-enter, .home-leave-active {
   opacity: 0;
   transform: translateY(30px)
+}
+
+
+a {
+  color: tomato;
+  padding: 0.1rem 0.2rem;
+  &:hover {
+    color: darkred;
+  }
+
 }
