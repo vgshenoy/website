@@ -35,17 +35,43 @@
           <a href="https://instagram.com/vigneshenoy" target="_blank">Instagram</a>
           and <a href="https://linkedin.com/in/vigneshenoy" target="_blank">LinkedIn</a>. -->
         </p>
-        <p>More about me <a href="#about">here</a>.</p>
+        <p>More about me <a href="#awards">here</a>.</p>
       </div>
     </section>
 
     <section id="projects" class="section projects">
-      <div class="title">Projects</div>
+      <div class="title is-4">Projects</div>
       <Gallery :projects="projects" />
     </section>
 
+    <section id="awards" class="section">
+      <div class="title is-4">Awards</div>
+      <div class="content">
+        <p>
+          <a
+            href="https://pudding.cool/process/pudding-cup-2019/"
+            target="_blank"
+            >Pudding Cup</a
+          >
+          for
+          <span class="is-italic"
+            >Tottenham vs Man United, Premier League 2018-19, Jan 2019</span
+          >
+        </p>
+        <p>
+          <a
+            href="https://www.informationisbeautifulawards.com/showcase/3811-kohli-s-path-to-10-000-runs-charted"
+            target="_blank"
+            >Information is Beautiful Awards shortlist</a
+          >
+          for
+          <span class="is-italic">Kohli races to 10,000 runs, Oct 2019</span>
+        </p>
+      </div>
+    </section>
+
     <section id="about" class="section about">
-      <div class="title">About</div>
+      <div class="title is-4">About</div>
       <div class="content">
         <p>I'm an engineer/designer based in Amsterdam, Netherlands.</p>
         <p>
@@ -61,7 +87,7 @@
         </p>
         <p>
           Before that, I worked as a consultant with
-          <a target="_blank" href="http://www.mckinsey.com/"
+          <a target="_blank" href="https://www.mckinsey.com/"
             >McKinsey & Company</a
           >
           after having studied engineering at
@@ -71,12 +97,12 @@
           When I'm not working on professional projects, I enjoy travelling,
           hiking and diving (while documenting these on
           <a
-            href="http://youtube.com/user/etothepipplus1/videos"
+            href="https://youtube.com/user/etothepipplus1/videos"
             target="_blank"
             >Youtube</a
           >
           and
-          <a href="http://instagram.com/vigneshenoy" target="_blank"
+          <a href="https://instagram.com/vigneshenoy" target="_blank"
             >Instagram</a
           >). Playing competitive sports has been a big part of my life since a
           young age - cricket, football and ultimate frisbee are my all-time
@@ -127,6 +153,14 @@ export default {
 </script>
 
 <style lang="scss">
+.section {
+  padding-bottom: 1.5rem;
+}
+a {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .intro {
   a {
     white-space: nowrap;

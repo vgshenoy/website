@@ -18,7 +18,7 @@
         }}</span>
       </div>
 
-      <div class="content" v-html="project.desc"></div>
+      <div class="content" v-html="project.desc" />
 
       <div class="columns projects">
         <div
@@ -29,10 +29,7 @@
           <small>
             <strong>{{ item.heading }}</strong>
           </small>
-          <div
-            class="content item-content is-small"
-            v-html="item.content"
-          ></div>
+          <div class="content item-content is-small" v-html="item.content" />
         </div>
       </div>
 
