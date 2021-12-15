@@ -51,4 +51,18 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // generated routes
+  generate: {
+    routes: [
+      '/projects/scisports',
+      '/projects/shapeofthegame',
+      '/projects/nostragamus',
+      '/projects/vue-scrollama',
+      '/projects/indiahikes',
+      '/projects/yoky',
+      '/projects/den',
+      '/projects/airtel-chromecast',
+    ],
+  },
 }
