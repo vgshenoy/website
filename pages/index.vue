@@ -75,10 +75,10 @@
       <div class="content">
         <p>I'm an engineer/designer based in Amsterdam, Netherlands.</p>
         <p>
-          I currently lead Frontend Engineering at
+          Most recently, I led Product Engineering at
           <a target="_blank" href="https://scisports.com">SciSports</a>, where
-          we build data-driven interfaces to help football clubs make better
-          decisions.
+          I helped design and build data-driven interfaces to help football clubs make
+          better decisions.
         </p>
         <p>
           In the preceding years, I built a variety of
