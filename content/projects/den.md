@@ -1,0 +1,3 @@
+[DEN Networks](https://www.dennetworks.com) is the largest cable TV distribution provider in India. In 2014, they doubled down on the broadband arm of their business which entailed rapid geographic expansion of their physical network.
+
+At Gida, we worked with the internal team to build and deploy a system that efficiently tracked and monitored rollouts with network tree diagrams, Gantt charts and task management modules. The system also had to allow dynamic creation of accounts and permission handling for DEN's contractors.

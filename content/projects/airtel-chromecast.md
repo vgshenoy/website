@@ -1,0 +1,3 @@
+In 2014, Google partnered with [Airtel](https://airtel.com) to bring the [Chromecast](https://store.google.com/us/product/chromecast) to the Indian market. Gida worked on building an online experience for the launch.
+
+Leveraging websocket protocols, we built an immersive web experience that allowed visitors to control video playback on desktop browsers from their smartphones, thereby simulating the 'magic' and convenience of the casting experience.

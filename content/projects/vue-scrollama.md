@@ -1,0 +1,1 @@
+[Vue-Scrollama](https://github.com/shenoy/vue-scrollama) is an open source Vue component to easily setup scroll-driven interactions (aka scrollytelling) on the web.

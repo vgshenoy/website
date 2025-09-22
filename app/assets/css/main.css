@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@source "../../../content/**/*";
+
+@theme static {
+  /* --font-sans: 'Public Sans', sans-serif; */
+  /* --font-serif: 'Instrument Serif', serif; */
+}
+
+:root {
+  --ui-container: var(--container-4xl);
+
+  ::selection {
+    color: #282a30;
+    background-color: red;
+  }
+}
+
+.dark {
+  ::selection {
+    color: #ffffff;
+    background-color: red;
+  }
+}
+
+/* Custom font classes for different terms */
+.font-design {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+}
+
+.font-code {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.dark .font-code {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.font-data {
+  font-family: 'Doto', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+}

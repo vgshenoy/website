@@ -1,0 +1,5 @@
+[Shape of the Game](https://shapeofthegame.com) is a personal project where I experiment with data-driven, interactive explorations primarily in sports. It started out when I was using dataviz and data science tools to understand user behaviour, and started playing around with sports data in my spare time.
+
+In working on any of these explorations, I use Javascript/Python to scrape, wrangle and start running initial explorations on the data. Following that, I like to move into [Vue.js](https://vuejs.org) and [D3.js](https://d3js.org) to build in custom views and interactivity.
+
+The first two pieces published garnered an [Information is Beautiful Awards shortlist](https://www.informationisbeautifulawards.com/showcase/3811-kohli-s-path-to-10-000-runs-charted) and a [Pudding Cup](https://pudding.cool/process/pudding-cup-2019/) respectively.

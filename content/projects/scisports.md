@@ -1,0 +1,7 @@
+[SciSports](https://scisports.com) helps football clubs and professionals make data-driven decisions. This includes helping clubs scout and identify players to sign, analysing performance in past matches and preparing for upcoming opponents.
+
+Playing competitive sports has been a part of my life since a young age and with this role I was able to bring together my passions of sports and technology.
+
+When I joined in summer 2019, our product offering was still rudimentary, the interface was basic and the speed of frontend development wasn't fast enough for where we were in the product life cycle. Picking up from there, I lead the frontend engineering team to architect and execute a transition to a new frontend stack underpinned by a [component library and design system](https://components.scisports.app) powered by [Vue.js](https://vuejs.org), [Tailwind CSS](https://tailwindcss.com). We also leaned on [D3.js](https://d3js.org) wherever required for interactive data visualisations. Apart from development, I'm also actively involved in the design and prototyping of these data-driven interfaces.
+
+We've come a long way since to today where we're in a position to rapidly prototype and ship interfaces to customers through [multiple product offerings](https://www.scisports.com/services/) used by [marquee customers](https://www.scisports.com/track-record/).
