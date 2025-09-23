@@ -9,7 +9,7 @@
           class="cursor-pointer transition-all duration-200 group"
           @click="goToProject(project)"
         >
-          <div class="aspect-video overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
+          <div class="aspect-video overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700 shadow-lg">
             <img
               :src="project.thumb"
               :alt="project.title"
