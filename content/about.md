@@ -1,10 +1,12 @@
-I'm an product engineer based in Amsterdam, Netherlands.
+I'm a Product Engineer based in Amsterdam, Netherlands.
 
-Most recently, I led Product Engineering at [SciSports](https://scisports.com), where I helped design and build data-driven interfaces to help football clubs make better decisions.
+These days, I'm working on [Chartr](https://chartr.ai), an AI-powered platform for visual storytelling.
 
-In the preceding years, I built a variety of products and experiences, working with startups as well as larger companies.
+Most recently, I led Product Engineering at [SciSports](/projects/scisports), where I designed and built data-driven interfaces to help football clubs make better decisions.
 
-Before that, I worked as a consultant with [McKinsey & Company](https://www.mckinsey.com/) after having studied engineering at [IIT Madras](https://www.iitm.ac.in/).
+In the preceding years, I built a [variety of products and experiences](/projects), working with startups as well as larger companies.
+
+I started my career as a consultant with [McKinsey & Company](https://www.mckinsey.com/) after studying engineering at [IIT Madras](https://www.iitm.ac.in/).
 
 When I'm not working on professional projects, I enjoy travelling, hiking and diving (while documenting these on [Youtube](https://youtube.com/user/etothepipplus1/videos) and [Instagram](https://instagram.com/vigneshenoy)). Playing competitive sports has been a big part of my life since a young age - cricket, football and ultimate frisbee are my all-time faves.
 
