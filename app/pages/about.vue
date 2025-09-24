@@ -4,7 +4,11 @@
       <ContentRenderer
         :value="data"
       />
+    </UPageSection>
 
+    <USeparator />
+
+    <UPageSection>
       <!-- Social Links -->
       <div class="flex flex-wrap gap-4">
         <UButton

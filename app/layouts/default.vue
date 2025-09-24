@@ -12,7 +12,7 @@
       <div class="flex flex-col justify-center items-center">
         <AppNav />
       </div>
-      <div class="min-h-[70svh] flex flex-col justify-center items-center">
+      <div>
         <NuxtPage />
       </div>
     </UContainer>
@@ -20,9 +20,9 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue"
-import { useColorMode } from "@vueuse/core"
+import { computed } from 'vue'
+import { useColorMode } from '@vueuse/core'
 
 const route = useRoute()
-const isDark = computed(() => useColorMode().value === "dark")
+const isDark = computed(() => useColorMode().value === 'dark')
 </script>

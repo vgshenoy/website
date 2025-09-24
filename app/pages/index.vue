@@ -1,10 +1,10 @@
 <template>
   <div>
     <!-- Intro Section -->
-    <UPageSection class="max-w-xl mx-auto text-center">
+    <UPageSection class="max-w-xl mx-auto text-center min-h-[70svh] flex flex-col justify-center">
       <ContentRenderer
         :value="data"
-        class="text-xl mb-6"
+        class="mb-6 text-xl"
       />
     </UPageSection>
   </div>

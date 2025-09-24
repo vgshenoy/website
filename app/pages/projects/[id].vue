@@ -23,19 +23,23 @@
       </template>
     </UPageHero>
 
-    <UPageSection>
+    <UPageSection
+      :ui="{
+        container: '!py-0',
+      }"
+    >
       <ContentRenderer :value="contentData" />
 
       <div
         v-if="project.info"
-        class="flex flex-wrap gap-16"
+        class="flex flex-col sm:flex-row flex-wrap gap-x-16 gap-y-4"
       >
         <div
           v-for="item in project.info"
           :key="item.heading"
           class="mb-6"
         >
-          <h4 class="font-semibold text-sm text-muted uppercase tracking-wide mb-2">
+          <h4 class="font-semibold text-xs text-muted uppercase tracking-wide mb-2">
             {{ item.heading }}
           </h4>
           <div
