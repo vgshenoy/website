@@ -279,7 +279,7 @@ export const projects: Project[] = [
   {
     id: 'airtel-chromecast',
     thumb: '/images/airtel/thumb.jpg',
-    title: 'Airtel/Chromecast Experience',
+    title: 'Airtel / Chromecast Experience',
     shortDesc: 'is an immersive web app to simulate the casting experience in the browser',
     roles: ['full stack engineering', 'prototyping'],
     info: [
