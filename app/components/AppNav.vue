@@ -12,7 +12,7 @@
         <ULink
           to="/projects"
           class="font-medium hover:text-primary transition-colors"
-          :class="{ 'text-primary': $route.path === '/projects' }"
+          :class="{ 'text-primary': $route.path.startsWith('/projects') }"
         >
           Projects
         </ULink>
