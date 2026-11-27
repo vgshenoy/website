@@ -45,7 +45,7 @@ export const projects: Project[] = [
     thumb: '/images/scisports/player_profile.jpg',
     title: 'SciSports',
     shortDesc: 'helps football clubs make data-driven decisions',
-    roles: ['frontend engineering', 'prototyping', 'dataviz'],
+    roles: ['product engineering', 'prototyping', 'dataviz'],
     info: [
       {
         heading: 'Links',
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     thumb: '/images/sotg/thumb.jpg',
     title: 'Shape of the Game',
     shortDesc: 'is a collection of data-driven, interactive explorations',
-    roles: ['dataviz', 'frontend engineering'],
+    roles: ['dataviz', 'product engineering'],
     info: [
       {
         heading: 'Links',
@@ -159,7 +159,7 @@ export const projects: Project[] = [
     thumb: '/images/vue-scrollama/thumb.jpg',
     title: 'vue-scrollama',
     shortDesc: 'is an open source Vue component to setup scroll-driven interactions (aka scrollytelling)',
-    roles: ['frontend engineering'],
+    roles: ['product engineering'],
     info: [
       {
         heading: 'Links',
