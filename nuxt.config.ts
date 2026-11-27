@@ -12,6 +12,19 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  content: {
+    build: {
+      markdown: {
+        // External links in Markdown open in a new tab
+        rehypePlugins: {
+          'rehype-external-links': {
+            options: { target: '_blank', rel: ['noopener', 'noreferrer'] },
+          },
+        },
+      },
+    },
+  },
+
   // Configure Nuxt UI theming
   ui: {
 

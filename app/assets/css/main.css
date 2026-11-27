@@ -49,3 +49,26 @@
   font-weight: bolder;
   letter-spacing: 0.05em;
 }
+
+/* Landing-page links: a fine underline that deepens on hover */
+.home-intro a {
+  color: inherit;
+  border-bottom: 0;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+  text-decoration-color: color-mix(in oklch, var(--ui-primary) 45%, transparent);
+  transition: text-decoration-color 200ms, text-underline-offset 200ms;
+}
+
+.home-intro a:hover,
+.home-intro a:focus-visible {
+  text-decoration-color: var(--ui-primary);
+  text-underline-offset: 0.18em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-intro a {
+    transition: none;
+  }
+}
