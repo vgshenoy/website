@@ -1,1 +1,1 @@
-[Chartr](https://chartr.ai) is an AI-powered platform for visual storytelling.
+[Chartr](https://chartr.ai) is an AI-powered charting engine.

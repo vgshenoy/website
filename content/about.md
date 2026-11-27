@@ -1,6 +1,6 @@
 I'm a Product Engineer based in Amsterdam, Netherlands.
 
-I'm currently working on [Chartr](https://chartr.ai), an AI-powered platform for visual storytelling.
+I'm currently working on [Chartr](https://chartr.ai), an AI-powered charting engine.
 
 Prior to this, I led Product Engineering at [SciSports](/projects/scisports), where I designed and built data-driven interfaces to help football clubs make better decisions.
 

@@ -27,7 +27,7 @@ export const projects: Project[] = [
     link: 'https://chartr.ai',
     thumb: '/images/chartr/thumb.jpg',
     title: 'Chartr',
-    shortDesc: 'is an AI-powered platform for visual storytelling',
+    shortDesc: 'is an AI-powered charting engine',
     roles: ['product management', 'full stack engineering', 'prototyping'],
     info: [
       {
